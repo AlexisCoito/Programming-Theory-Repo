@@ -9,4 +9,10 @@ public class MenuUI : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
 }
